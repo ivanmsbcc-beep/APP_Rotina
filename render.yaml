@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: foco-ate-o-final
+    runtime: static
+    buildCommand: echo "Aplicativo estático pronto"
+    staticPublishPath: ./dist
